@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- login strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="logo_string">LOGO</string>
+	<string name="enter_your_username_and_password_to_login_string">Enter your username and password to login</string>
+	<string name="_forgot_password__string">Forgot Password?</string>
+	<string name="forgot_username__string">Forgot Username?</string>
+	<string name="_don_t_have_an_account__register_string">Dont have an account? Register</string>
+	<string name="need_help__visit_our_help_center_string">Need help? Visit our help center</string>
+	<string name="or_login_in_with_string">Or login in with</string>
+	<string name="password_string">Password</string>
+	<string name="login_ek3_string">Login</string>
+	<string name="username_string">Username</string>
+	<string name="google_ek1_string">Google</string>
+	<string name="facebook_string">Facebook</string>
+	<string name="login_ek4_string">Login</string>
+</resources>

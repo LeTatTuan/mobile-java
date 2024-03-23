@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="dog"
+            type="com.example.dogapp.model.DogBreed" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.DetailsFragment">
+
+        <ImageView
+            android:id="@+id/image_dog"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Name: "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_namedog_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{dog.name}"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Life Span: "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_lifespan_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{dog.lifeSpan}"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Origin: "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_origin_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{dog.origin}"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
