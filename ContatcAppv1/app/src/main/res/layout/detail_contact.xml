@@ -123,7 +123,7 @@
             android:id="@+id/email"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/baseline_attach_email_24"
+            android:src="@drawable/ic_email"
             android:layout_marginRight="10dp"/>
 
         <com.google.android.material.textfield.TextInputEditText

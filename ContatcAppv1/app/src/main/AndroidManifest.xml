@@ -13,19 +13,20 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".DetailContact"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
-<!--            android:theme="@style/Theme.MyApplication">-->
+            <!--            android:theme="@style/Theme.MyApplication">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DetailContact"
-            android:exported="false" />
     </application>
 
 </manifest>
